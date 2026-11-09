@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>orbit_pkg</name>
+  <name>ARP-orbit</name>
   <version>0.0.0</version>
   <description>Minimal example of a dynamic transform broadcaster.</description>
   <maintainer email="rayneralla@icloud.com">ray</maintainer>

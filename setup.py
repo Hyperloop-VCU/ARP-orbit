@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'orbit_pkg'
+package_name = 'ARP-orbit'
 
 setup(
     name=package_name,

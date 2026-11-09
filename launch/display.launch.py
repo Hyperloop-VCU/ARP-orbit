@@ -8,11 +8,11 @@ from launch_ros.substitutions import FindPackageShare
 def generate_launch_description():
 
     # Get rviz configuration file 
-    rviz_config_file = PathJoinSubstitution([FindPackageShare('orbit_pkg'), "rviz_config.rviz"])
+    rviz_config_file = PathJoinSubstitution([FindPackageShare('ARP-orbit'), "rviz_config.rviz"])
 
     # Start orbit node
     orbit_node = Node(
-        package='orbit_pkg',
+        package='ARP-orbit',
         executable='orbit_node',
     )
 
